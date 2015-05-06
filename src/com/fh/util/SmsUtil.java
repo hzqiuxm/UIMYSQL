@@ -157,7 +157,7 @@ public class SmsUtil {
 		NameValuePair[] data = {//提交短信
 		    new NameValuePair("account", account), 
 		    new NameValuePair("password", password), 			//密码可以使用明文密码或使用32位MD5加密
-		    new NameValuePair("mobile", mobile), w
+		    new NameValuePair("mobile", mobile),
 		    new NameValuePair("content", content),
 		};
 		
